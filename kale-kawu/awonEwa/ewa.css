@@ -118,7 +118,7 @@ body #homePage #left #appellation #post figure img {
 
 body #homePage #left #socialMedia {
   position: absolute;
-  bottom: 10%;
+  bottom: 20px;
   left: 0;
   z-index: 999;
   height: 100px;
