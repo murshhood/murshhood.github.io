@@ -118,11 +118,11 @@ body #homePage #left #appellation #post figure img {
 
 body #homePage #left #socialMedia {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 0;
   z-index: 999;
   height: 100px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
