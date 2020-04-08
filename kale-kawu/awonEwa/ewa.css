@@ -83,11 +83,11 @@ body #homePage #left #appellation {
 }
 
 body #homePage #left #appellation #names .engr {
-  font-family: "Montserrat Light", sans-serif;
+  /* font-family: "Montserrat Light", sans-serif; */
 }
 
 body #homePage #left #appellation #names .name {
-  font-family: "Montserrat Medium", sans-serif;
+  /* font-family: "Montserrat Medium", sans-serif; */
   font-size: 1.5em;
   text-transform: capitalize;
   margin-top: -3px;
@@ -99,12 +99,12 @@ body #homePage #left #appellation #names .surnameBadge {
 }
 
 body #homePage #left #appellation #names .surnameBadge .surname {
-  font-family: "Montserrat Extrabold", sans-serif;
+  /* font-family: "Montserrat Extrabold", sans-serif; */
   font-size: 2em;
 }
 
 body #homePage #left #appellation #names .surnameBadge .fnse {
-  font-family: "Montserrat Light", sans-serif;
+  /* font-family: "Montserrat Light", sans-serif; */
 }
 
 body #homePage #left #appellation #post figure {
