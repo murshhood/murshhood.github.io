@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -116,7 +117,9 @@ body #homePage #left #appellation #post figure img {
 }
 
 body #homePage #left #socialMedia {
-  position: relative;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
   z-index: 999;
   height: 100px;
   margin-top: 10px;
