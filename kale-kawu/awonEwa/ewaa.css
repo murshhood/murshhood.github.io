@@ -1,0 +1,635 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+.visible {
+	visibility: visible;
+}
+
+#homePage {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	box-sizing: border-box;
+}
+
+#homePage #left {
+	flex: 1;
+	padding: 2em 4em;
+	box-sizing: border-box;
+	display: grid;
+	grid-row-gap: 2em;
+	background-image: linear-gradient(45deg, #f4f4f4 10% , #fff 40% );
+
+}
+
+header .fa {
+	color: #4a5368;
+	display: none;
+}
+
+#homePage #left ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#homePage #left ul li {
+	list-style-type: none;
+	/*border-right: 1px solid #4a5368;*/
+	padding: 10px 20px;
+
+}
+
+#homePage #left ul li:last-child {
+	border-right: none;
+}
+
+#homePage #left ul li a {
+	text-decoration: none;
+	color: #4a5368;
+	height: 20px;
+	font-family: "Montserrat Medium", sans-serif;
+}
+
+#appellation {
+	width: 100%;
+}
+
+#appellation .engr {
+	font-weight: 500;
+	font-size: 3em;
+	font-family: "Montserrat Light", sans-serif;
+}
+
+#appellation .name {
+	font-weight: 900;
+	font-size: 4em;
+	letter-spacing: 4px;
+	/*width: 100%;*/
+	font-family: "Montserrat Medium", sans-serif;
+	margin-top: -10px;
+	margin-bottom: -25px;
+}
+
+#appellation #names {
+	color: #4a5368;
+	display: grid;
+}
+
+#appellation .surname {
+	font-size: 5em;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: "Montserrat Bold", sans-serif;
+	margin-top: -30px;
+}
+
+#appellation .fnse {
+	font-size: 2em;
+	font-weight: thin;
+	font-family: "Montserrat Light", sans-serif;
+	/*font-weight: 500;*/
+}
+
+#appellation #post {
+	background-color: #00afef;
+	color: #fff;
+	width: 50%;
+	padding: 10px 10px 10px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+#appellation #post .dir {
+	font-family: "Montserrat Medium", sans-serif;
+	font-size: 1.2em;
+	word-spacing: 8px;
+	font-weight: 700
+}
+
+#appellation #post .rea {
+	font-size: 1em;
+	word-spacing: 5px;
+	width: 100%;
+	font-family: "Montserrat Light", sans-serif;
+	font-weight: 500;
+	margin-top: 5px;
+}
+
+
+#homePage #right {
+	flex: 1;
+	background-color: orange;
+}
+
+
+#homePage #right img {
+	position: absolute;
+	width:  50vw;
+	height: 100vh; 
+	bottom: 0;
+	right: 3%;
+}
+
+#socialMedia {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+}
+
+#socialMedia a{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	display: inline-block;
+	border-radius: 50%;
+	color: #fff;
+	text-decoration: none;
+}
+
+#socialMedia a i{
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#socialMedia a:nth-child(1) {
+	background-color: blue;
+}
+
+#socialMedia a:nth-child(2) {
+	background-color: #00afef;
+}
+
+#socialMedia a:nth-child(3) {
+	background-color: blue;
+}
+
+#socialMedia a:nth-child(4) {
+	background-color: magenta;
+}
+
+#socialMedia a:nth-child(5) {
+	background-color: #333;
+}
+
+footer {
+	height: 10%;
+	width: 100%;
+	padding-left: 6em;
+}
+
+footer img {
+	position: relative;
+	width: 250px;
+	margin-top: -20px;
+}
+
+
+/*********************************
+		ABOUT PAGE STYLES
+*********************************/
+
+.top {
+	display: flex;
+	background-color: orange;
+	height: 10vh;
+}
+
+.topLogo {
+	color: #4a5368;
+}
+
+
+details {
+	padding: 15px;
+	background-color: #f4f4f4;
+	border-bottom: 	1px solid #ccc;
+	font-family: "Montserrat Medium", sans-serif;
+	cursor: pointer;
+}
+
+details div {
+	padding: 20px;
+}
+
+summary {
+	font-family: "Montserrat Medium", sans-serif;
+	outline: none;
+}
+
+#mainAbout{
+	padding: 20px 4em;
+}
+
+#mainAbout p {
+	font-size: 1.2em;
+	margin-bottom: 20px
+}
+
+#mainAbout img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	shape-outside: circle();
+	margin: 20px;
+}
+
+
+/*****************************
+		BLOG PAGE STYLES
+*****************************/
+
+#blogPosts, #gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2em;
+	width: 100%;
+	padding: 4em;
+	box-sizing: border-box;
+}
+
+.blogPost{
+	height: 500px;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+	transition: all .5s;
+}
+
+.eachPicture {
+	height: 400px;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+	transition: all .5s;
+}
+
+.blogPost:hover  {
+	transform: scale(1.05);
+}
+
+
+.blogPost figure, .eachPicture figure {
+	display: flex;
+	flex-direction: column;
+}
+
+.blogPost figure img {
+	/*flex: 2;*/
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.eachPicture figure img{
+	/*flex: 2;*/
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.eachPicture figure figcaption{
+	/*flex: 2;*/
+	position: relative;
+	width: 100%;
+	height: 100px;
+	display: grid;
+	place-items: center;
+	padding: 0 20px;
+}
+
+.blogPost figure figcaption {
+	/*flex: 1;*/
+	background-color: #f4f4f4;
+	height: 200px;
+	position: relative;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	display: grid;
+	/*grid-row-gap: .5em;*/
+}
+
+.blogPost figure figcaption small {
+	text-align: right;
+}
+
+.blogPost figure figcaption button {
+	width: 50%;
+	padding: 7px 10px;
+	border: none;
+	color: orange;
+	background-color: #4a5368;
+	border-radius: 5px;
+	font-weight: 700;
+	transition: .5s;
+}
+
+.blogPost figure figcaption button:hover {
+	color: #4a5368;
+	background-color: orange;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+
+	#homePage {
+		padding:10px 10px 0px 10px;
+	}
+	#socialMedia {
+		display: block;
+		margin: 0 auto;
+		width: 120%;
+	}
+
+	#appellation #post {
+		background-color: #00afef;
+		color: #fff;
+		width: 70%;
+		padding: 10px 0px 10px 20px;
+		box-sizing: border-box;
+		margin-top: 10px;
+	}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+	#homePage #left ul {
+		visibility: hidden;
+	}
+
+	.visible {
+		visibility: visible;
+	}
+
+	header .fa {
+		display: flex;
+	}
+
+	#homePage #left {
+		flex: 2.5;
+		padding-left: .5em;
+		z-index: 99;
+		background: none;
+		box-sizing: border-box;
+	}
+
+	#homePage #right {
+		flex: 1.5;
+	}
+
+	#appellation {
+		width: 100%;
+	}
+
+	#appellation .engr {
+		font-weight: 500;
+		font-size: 1.5em;
+		font-family: "Montserrat Light", sans-serif;
+		margin-bottom: 0px;
+	}
+
+	#appellation .name {
+		font-weight: 900;
+		font-size: 2em;
+		letter-spacing: 4px;
+		/*width: 100%;*/
+		font-family: "Montserrat Medium", sans-serif;
+		margin: 0px;
+		margin-top: -7px;
+	}
+
+	#appellation #names {
+		color: #4a5368;
+		display: grid;
+	}
+
+	#appellation #names .surnameBadge {
+		margin-top: -15px;
+	}
+
+	#appellation .surname {
+		font-size: 2.5em;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-family: "Montserrat Bold", sans-serif;
+		margin-bottom: 0px;
+	}
+
+	#appellation .fnse {
+		font-size: 1em;
+		font-weight: thin;
+		font-family: "Montserrat Light", sans-serif;
+		/*font-weight: 500;*/
+	}
+
+	#appellation #post {
+		background-color: #00afef;
+		color: #fff;
+		width: 60%;
+		padding: 10px 0px 10px 20px;
+		box-sizing: border-box;
+		margin-top: 10px;
+	}
+
+	#appellation #post .dir {
+		font-family: "Montserrat Medium", sans-serif;
+		font-size: 1em;
+		word-spacing: 8px;
+		font-weight: 700
+	}
+
+	#appellation #post .rea {
+		font-size: .8em;
+		word-spacing: 5px;
+		width: 100%;
+		font-family: "Montserrat Light", sans-serif;
+		font-weight: 500;
+		margin-top: 5px;
+	}
+
+	#socialMedia {
+		/*display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		place-items: center;*/
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	#socialMedia a{
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+		display: inline-block;
+		border-radius: 50%;
+	}
+
+	#homePage #right img {
+		position: absolute;
+		width:  60vw;
+		height: 100%; 
+		bottom: 0;
+		right: 3%;
+	}
+
+	#blogPosts  {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 2em;
+	}
+
+	#mainAbout {
+		padding: 20px 1em;
+		background-color: #fff;
+	}
+
+	#mainAbout img {
+		margin: 20px 20px 20px 10px;
+		/*margin-right: 20px;*/
+		width: 200px;
+		height: 200px;
+	}
+
+	footer {
+		background-color: #fff;
+	}
+
+	.visible {
+		visibility: visible;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	body{
+		/*background-color: #f7f7f7;*/
+	}
+
+	#homePage #left {
+		flex: 2.5;
+		/*padding-left: 1em;*/
+		z-index: 99;
+		background: none;
+	}
+
+	#homePage #right {
+		flex: 1.5;
+	}
+
+
+	#appellation .engr {
+		font-weight: 500;
+		font-size: 1.3em;
+		font-family: "Montserrat Light", sans-serif;
+		margin-bottom: 0px;
+	}
+
+	#appellation .name {
+		font-weight: 900;
+		font-size: 1.5em;
+		font-family: "Montserrat Medium", sans-serif;
+		margin: 0px;
+		margin-top: -7px;
+	}
+
+	#appellation #names {
+		color: #4a5368;
+		display: grid;
+		margin-top: 140px;
+	}
+
+	#appellation #names .surnameBadge {
+		margin-top: -15px;
+	}
+
+	#appellation .surname {
+		font-size: 2.1em;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-family: "Montserrat Bold", sans-serif;
+		margin-bottom: 0px;
+	}
+
+	#appellation .fnse {
+		font-size: 1em;
+		font-weight: thin;
+		font-family: "Montserrat Light", sans-serif;
+	}
+
+	#appellation #post {
+		background-color: #00afef;
+		color: #fff;
+		width: 65%;
+		padding: 10px 0px 10px 10px;
+		box-sizing: border-box;
+		margin-top: 10px;
+	}
+
+	#appellation #post .dir {
+		font-family: "Montserrat Medium", sans-serif;
+		font-size: 1em;
+		word-spacing: 8px;
+		font-weight: 700
+	}
+
+	#appellation #post .rea {
+		font-size: .8em;
+		word-spacing: 5px;
+		width: 100%;
+		font-family: "Montserrat Light", sans-serif;
+		font-weight: 500;
+		margin-top: 5px;
+	}
+
+	#socialMedia {
+		/*display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		place-items: center;*/
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	#socialMedia a{
+		width: 30px;
+		height: 30px;
+		margin-right: 5px;
+		display: inline-block;
+		border-radius: 50%;
+	}
+
+	#homePage #right img {
+		position: absolute;
+		width:  65vw;
+		height: 100%; 
+		bottom: 0;
+		right: 0;
+	}
+
+	#blogPosts  {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 2em;
+	}
+
+	.visible {
+		visibility: visible;
+	}
+}
+
