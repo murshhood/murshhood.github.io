@@ -116,8 +116,8 @@ body #homePage #left #appellation #names .surnameBadge .fnse {
 
 body #homePage #left #appellation #post {
   background-color: #00afef;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, #00afef), color-stop(91%, transparent));
-  background-image: linear-gradient(to right, #00afef 80%, transparent 91%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, #00afef), color-stop(91%, #fff));
+  background-image: linear-gradient(to right, #00afef 80%, #fff 91%);
   color: #fff;
   width: 200px;
   height: 55px;
@@ -131,6 +131,8 @@ body #homePage #left #appellation #post {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 body #homePage #left #appellation #post figure {

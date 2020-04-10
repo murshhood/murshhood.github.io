@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -75,11 +77,13 @@ body {
 
 				#names {
 					.engr {
-						font-family: "Montserrat Light", sans-serif;
+						font-family: 'Montserrat', sans-serif;
+						font-weight: 400;
 					}
 
 					.name {
-						font-family: "Montserrat Medium", sans-serif;
+						font-family: 'Montserrat', sans-serif;
+						font-weight: 500;
 						font-size: 1.5em;
 						text-transform: capitalize;
 						margin-top: -3px;
@@ -90,12 +94,13 @@ body {
 						margin-top: -7px;
 
 						.surname {
-							font-family: "Montserrat Extrabold", sans-serif;
+							font-family: 'Montserrat', sans-serif;
+							font-weight: 900;
 							font-size: 2em;
 						}
 						.fnse {
-							font-family: "Montserrat Light", sans-serif;
-						}
+							font-family: 'Montserrat', sans-serif;
+							font-weight: 400;						}
 					}
 				}
 
