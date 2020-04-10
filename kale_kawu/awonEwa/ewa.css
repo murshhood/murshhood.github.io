@@ -26,7 +26,7 @@ body #homePage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: linear-gradient(45deg, #f4f4f4 20%, #fff 50%);
+  background-image: linear-gradient(45deg, #f4f4f4 5%, #fff 30%);
 }
 
 body #homePage #left {
@@ -115,15 +115,22 @@ body #homePage #left #appellation #names .surnameBadge .fnse {
 }
 
 body #homePage #left #appellation #post {
+  background-color: #00afef;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(80%, #00afef), color-stop(91%, #fff));
+  background-image: linear-gradient(to right, #00afef 80%, #fff 91%);
   color: #fff;
-  width: 230.9px;
-  height: 50px;
+  width: 200px;
+  height: 55px;
   margin-top: 7px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 body #homePage #left #appellation #post figure {
@@ -131,6 +138,9 @@ body #homePage #left #appellation #post figure {
   padding: 7px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 2px solid orange;
+  border-radius: 50%;
+  background-color: #fff;
 }
 
 body #homePage #left #appellation #post figure img {
@@ -139,28 +149,28 @@ body #homePage #left #appellation #post figure img {
 }
 
 body #homePage #left #appellation #post div {
-  padding: 3px 5px 0 5px;
+  padding: 3px 5px 0 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #333;
+  color: #fff;
 }
 
 body #homePage #left #appellation #post div .dir {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: .8em;
+  font-size: .74em;
 }
 
 body #homePage #left #appellation #post div .rea {
   font-family: 'Montserrat', sans-serif;
-  font-size: .7em;
+  font-size: .67em;
 }
 
 body #homePage #left #socialMedia {
   position: relative;
   z-index: 999;
   height: 50px;
-  margin-top: 10px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
