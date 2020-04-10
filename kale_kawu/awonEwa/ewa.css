@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -85,10 +86,12 @@ body #homePage #left #appellation {
 }
 
 body #homePage #left #appellation #names .engr {
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
 body #homePage #left #appellation #names .name {
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.5em;
   text-transform: capitalize;
@@ -101,11 +104,13 @@ body #homePage #left #appellation #names .surnameBadge {
 }
 
 body #homePage #left #appellation #names .surnameBadge .surname {
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 2em;
 }
 
 body #homePage #left #appellation #names .surnameBadge .fnse {
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -141,11 +146,13 @@ body #homePage #left #appellation #post div {
 }
 
 body #homePage #left #appellation #post div .dir {
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: .8em;
 }
 
 body #homePage #left #appellation #post div .rea {
+  font-family: "Montserrat", sans-serif;
   font-size: .7em;
 }
 
