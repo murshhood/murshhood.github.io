@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -86,12 +86,12 @@ body {
 
 				#names {
 					.engr {
-						font-family: "Montserrat", sans-serif;
+						font-family: 'Montserrat', sans-serif;
 						font-weight: 400;
 					}
 
 					.name {
-						font-family: "Montserrat", sans-serif;
+						font-family: 'Montserrat', sans-serif;
 						font-weight: 500;
 						font-size: 1.5em;
 						text-transform: capitalize;
@@ -103,12 +103,12 @@ body {
 						margin-top: -7px;
 
 						.surname {
-							font-family: "Montserrat", sans-serif;
+							font-family: 'Montserrat', sans-serif;
 							font-weight: 900;
 							font-size: 2em;
 						}
 						.fnse {
-							font-family: "Montserrat", sans-serif;
+							font-family: 'Montserrat', sans-serif;
 							font-weight: 400;
 						}
 					}
@@ -152,13 +152,13 @@ body {
 						color: #333;
 
 						.dir {
-							font-family: "Montserrat", sans-serif;
+							font-family: 'Montserrat', sans-serif;
 							font-weight: 700;
 							font-size: .8em;
 						}
 
 						.rea {
-							font-family: "Montserrat", sans-serif;
+							font-family: 'Montserrat', sans-serif;
 							font-size: .7em;
 						}
 						
@@ -190,23 +190,23 @@ body {
 					border-radius: 50%;
 					
 					&:nth-child(1) {
-						background-color: blue;
+						background-color: #3b5998;
 					}
 					
 					&:nth-child(2) {
-						background-color: #00afef;
+						background-color: #00acee;
 					}
 					
 					&:nth-child(3) {
-						background-color: blue;
+						background-color: #0e76a8;
 					}
 					
 					&:nth-child(4) {
-						background-color: maroon;
+						background-image: linear-gradient(orange, purple);
 					}
 					
 					&:nth-child(5) {
-						background-color: #333;
+						background-color: #D44638;
 					}
 
 					i{

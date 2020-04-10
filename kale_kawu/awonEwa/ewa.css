@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -86,12 +86,12 @@ body #homePage #left #appellation {
 }
 
 body #homePage #left #appellation #names .engr {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
 body #homePage #left #appellation #names .name {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.5em;
   text-transform: capitalize;
@@ -104,13 +104,13 @@ body #homePage #left #appellation #names .surnameBadge {
 }
 
 body #homePage #left #appellation #names .surnameBadge .surname {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 2em;
 }
 
 body #homePage #left #appellation #names .surnameBadge .fnse {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
@@ -146,13 +146,13 @@ body #homePage #left #appellation #post div {
 }
 
 body #homePage #left #appellation #post div .dir {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: .8em;
 }
 
 body #homePage #left #appellation #post div .rea {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: .7em;
 }
 
@@ -177,23 +177,24 @@ body #homePage #left #socialMedia a {
 }
 
 body #homePage #left #socialMedia a:nth-child(1) {
-  background-color: blue;
+  background-color: #3b5998;
 }
 
 body #homePage #left #socialMedia a:nth-child(2) {
-  background-color: #00afef;
+  background-color: #00acee;
 }
 
 body #homePage #left #socialMedia a:nth-child(3) {
-  background-color: blue;
+  background-color: #0e76a8;
 }
 
 body #homePage #left #socialMedia a:nth-child(4) {
-  background-color: maroon;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(orange), to(purple));
+  background-image: linear-gradient(orange, purple);
 }
 
 body #homePage #left #socialMedia a:nth-child(5) {
-  background-color: #333;
+  background-color: #D44638;
 }
 
 body #homePage #left #socialMedia a i {
