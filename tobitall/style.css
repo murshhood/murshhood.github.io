@@ -145,6 +145,7 @@ body main h1 {
 
 body main section > h1, body main h3, body main h4 {
   margin: 5px;
+  text-align: center;
 }
 
 body main section > img {
