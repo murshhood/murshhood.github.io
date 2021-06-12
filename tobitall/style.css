@@ -145,6 +145,9 @@ body main h1 {
 
 body main section > h1, body main h3, body main h4 {
   margin: 5px;
+}
+
+body main section > h3, body main h4 {
   text-align: center;
 }
 
