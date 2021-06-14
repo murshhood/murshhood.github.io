@@ -13,6 +13,10 @@ body table {
   margin: 20px 0;
 }
 
+body .dec {
+  text-decoration: underline;
+}
+
 body th, body td {
   text-align: left;
   padding: 8px;
