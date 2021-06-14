@@ -7,6 +7,26 @@ body {
   padding: 0;
 }
 
+body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+body th, body td {
+  text-align: left;
+  padding: 8px;
+}
+
+body tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+body th {
+  background-color: darkblue;
+  color: white;
+}
+
 body .stroke {
   text-decoration: underline;
 }
