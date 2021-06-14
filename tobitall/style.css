@@ -42,6 +42,11 @@ body .bold {
   font-weight: 700;
 }
 
+body .underline {
+  border-bottom: 3px solid orange;
+  width: 20%;
+}
+
 body .active {
   border-bottom: 3px solid #fff;
   padding: 2px 10px;
@@ -67,37 +72,33 @@ body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 80px;
+  height: 85px;
+}
+
+body header h1 {
+  color: #fff;
+  display: inline;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 body header a {
   color: #fff;
 }
 
-body header a h1 {
+body header a span {
   color: #fff;
-  display: inline;
-  font-size: 1.5em;
-  text-transform: uppercase;
-}
-
-body header span {
-  color: #fff;
-  border: #fff 1px solid;
   padding: 5px 10px;
   border-radius: 3px;
+  width: 50px;
+  background-color: orange;
 }
 
 body nav {
@@ -136,6 +137,14 @@ body nav ul li a {
 body main {
   background-color: #f4f4f4;
   min-height: 70vh;
+}
+
+body main ol li p {
+  text-align: justify;
+}
+
+body main ol li ol {
+  list-style-type: lower-alpha;
 }
 
 body main h1 {
@@ -177,6 +186,24 @@ body footer {
 }
 
 @media screen and (min-width: 425px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header a span {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  header h1 {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    text-align: center;
+  }
   main {
     width: 425px;
   }
@@ -185,7 +212,6 @@ body footer {
 @media screen and (min-width: 768px) {
   nav {
     height: 50px;
-    padding: 0 13em !important;
   }
   main {
     width: 700px;
