@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+body .stroke {
+  text-decoration: underline;
+}
+
 body .pageNav {
   display: -webkit-box;
   display: -ms-flexbox;
